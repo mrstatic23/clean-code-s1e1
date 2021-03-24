@@ -5,30 +5,30 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.page-wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.page-wrapper img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.page-wrapper .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa { 
+  .page-wrapper { 
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.container {
   display: block;
   width: 400px;
   margin: 0 auto 0;
