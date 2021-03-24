@@ -30,7 +30,7 @@ body {
 
 .container {
   display: block;
-  width: 400px;
+  width: 500px;
   margin: 0 auto 0;
 }
 
@@ -120,6 +120,9 @@ li {
 
 li > * {
   vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li > input[type="checkbox"] {
