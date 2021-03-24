@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.header img {
+.header__image {
   width: 100%;
 }
 
-.header .more_inf {
+.header__info {
   font-family: fantasy, cursive;
 }
 
@@ -98,16 +98,16 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.add-task__label {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+.add-task__input {
   width: 318px;
 }
 
-p > button:hover {
+.add-task__button:hover {
   color: #0fc57c;
 }
 
@@ -152,7 +152,7 @@ li > .delete:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
